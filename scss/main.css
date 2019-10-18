@@ -6126,7 +6126,7 @@ body #myCarousel .item {
 	z-index: 1;
 }
 body #myCarousel .item:before {
-	opacity: .7;
+	opacity: .3;
 	content: "";
 	position: absolute;
 	top: 0;
