@@ -6161,7 +6161,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	text-transform: uppercase;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 36px;
 }
 @media screen and (max-width: 1024px) {
@@ -6171,7 +6171,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	margin-bottom: 30px;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 18px;
+	font-size: 25px;
 	line-height: 36px;
 }
 }
@@ -6182,7 +6182,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	margin-bottom: 30px;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 18px;
+	font-size: 25px;
 	line-height: 36px;
 }
 }
@@ -6193,7 +6193,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	margin-bottom: 30px;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 36px;
 }
 }
@@ -6209,7 +6209,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	margin-bottom: 30px;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 30px;
 }
 body #myCarousel .carousel-caption .btn {
@@ -6226,7 +6226,7 @@ body #myCarousel .carousel-caption h1.banner_heading {
 	margin-bottom: 20px;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 26px;
 }
 body #myCarousel .carousel-caption .btn {
