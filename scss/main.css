@@ -1104,7 +1104,8 @@ hr {
 cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: inherit;
+	font-family: 'Kaushan Script', cursive;
+	/* font-family: inherit; */
 	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
@@ -6157,46 +6158,54 @@ body #myCarousel .carousel-caption .slider_btn {
 	margin: 30px 0px;
 }
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: bolder;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-	font-size: 25px;
+	font-size: 35px;
 	line-height: 36px;
+	font-family: 'Kaushan Script', cursive;
 }
 @media screen and (max-width: 1024px) {
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bolder;
 	margin-bottom: 30px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
 	font-size: 25px;
 	line-height: 36px;
+	font-family: 'Kaushan Script', cursive;
 }
 }
 @media screen and (max-width: 768px) {
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 36px;
+	font-size: 46px;
 	font-weight: bolder;
 	margin-bottom: 30px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
 	font-size: 25px;
 	line-height: 36px;
+	font-family: 'Kaushan Script', cursive;
 }
 }
 @media screen and (max-width: 640px) {
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 36px;
+	font-size: 46px;
 	font-weight: bolder;
 	margin-bottom: 30px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
 	font-size: 25px;
 	line-height: 36px;
+	font-family: 'Kaushan Script', cursive;
 }
 }
 @media screen and (max-width: 560px) {
@@ -6206,13 +6215,15 @@ body #myCarousel .carousel-caption .btn {
 }
 @media screen and (max-width: 480px) {
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bolder;
 	margin-bottom: 30px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
 	font-size: 25px;
 	line-height: 30px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption .btn {
 	padding: 12px 30px;
@@ -6223,13 +6234,15 @@ body #myCarousel .carousel-caption .carousel-caption {
 	top: 12%;
 }
 body #myCarousel .carousel-caption h1.banner_heading {
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: bolder;
 	margin-bottom: 20px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption p.banner_txt {
 	font-size: 25px;
 	line-height: 26px;
+	font-family: 'Kaushan Script', cursive;
 }
 body #myCarousel .carousel-caption .btn {
 	padding: 12px 30px;
@@ -7779,4 +7792,12 @@ body #login-reg .btn-link-1 {
 
 #logo-horizontal {
 	height: 100px;
+}
+
+body #portfolio .portfolio-one:hover {
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+body #portfolio .portfolio-one a:hover, body #portfolio .portfolio-one a:visited {
+	color: inherit;
 }
