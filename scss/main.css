@@ -7080,7 +7080,14 @@ body #portfolio .portfolio-zoom {
 }
 body #portfolio .portfolio-content {
 	padding: 20px;
+	height:350px;
 }
+
+.portfolio-content ul{
+	list-style: disc!important;
+	padding-left: 15px;
+}
+
 body #portfolio .portfolio-one:hover .portfolio-hover {
 	left: 0;
 	opacity: 0.9;
