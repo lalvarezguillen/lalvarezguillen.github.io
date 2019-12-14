@@ -5,6 +5,7 @@ jobs:
       - image: alpine
     steps:
       - checkout
+      - run: apk update
       - run: apk add awscli
       - run: awscli --version
 #   deploy:
