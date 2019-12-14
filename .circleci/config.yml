@@ -2,13 +2,12 @@ version: 2
 jobs:
   plan:
     docker:
-      - image: alpine
+      - image: python:3.8-alpine
     steps:
       - checkout
-      - run: apk update
-      - run: apk add aws-cli
-      - run: which awscli
-      - run: which aws-cli
+      - run: pip install awscli
+      - run: which aws
+      - run: aws --version
 #   deploy:
 #     docker:
 #       - image: hashicorp/terraform:light
