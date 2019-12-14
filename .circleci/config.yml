@@ -6,8 +6,9 @@ jobs:
     steps:
       - checkout
       - run: apk update
-      - run: apk add awscli
-      - run: awscli --version
+      - run: apk add aws-cli
+      - run: which awscli
+      - run: which aws-cli
 #   deploy:
 #     docker:
 #       - image: hashicorp/terraform:light
