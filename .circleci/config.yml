@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run: pip install awscli
-      - run: aws s3 sync . website.naourass.com --exclude="*.git*" --exclude="*img_src*"
+      - run: aws s3 sync . $S3_URL --exclude="*.git*" --exclude="*img_src*"
 
 workflows:
   version: 2
