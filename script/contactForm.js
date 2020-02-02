@@ -1,12 +1,13 @@
 function submitContactForm(ev, form) {
+    ev.preventDefault();
     fetch(form.action,{method:'post', body: new FormData(form)})
         .then(() => {
-            ev.preventDefault();
+            // ev.preventDefault();
             form.reset();
             $('#form-success-alert').show();
         })
         .catch((err) => {
-            ev.preventDefault();
+            // ev.preventDefault();
             $('#form-error-alert').show();
         })
 }
