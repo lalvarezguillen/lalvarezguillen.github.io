@@ -14,6 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
+    <script src="./script/contactForm.js"></script>
 </head>
 
 <body id="wrapper" class='lightgreen'>
@@ -97,8 +98,13 @@
                 <p class="subheading">Feel free to send us your questions or business inquiries. We always answer within 24 hours.</p>
             </div>
             <div class="row contact-wrap">
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="/dev/contacts">
+                <div class="status alert alert-success" id='form-success-alert' style="display: none">
+                    Your email has been successfully received. We will reply to you in 24 hours.
+                </div>
+                <div class="status alert alert-danger" id='form-error-alert' style="display: none">
+                    We are having some technical difficulties. Please try again in a few minutes.
+                </div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" action='/dev/contacts', method='post', onsubmit="submitContactForm(event, this)">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Name *</label>
